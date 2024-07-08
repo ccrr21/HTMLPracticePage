@@ -1,16 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
     <head>
         <title> Catherine's Practice Website! </title>
     </head>
 
-    <body>
-        <h1> This is what the largest heading looks like. It is referred to as h1.</h1>
+    <body style="background-color:floralwhite;">
+        <h1 style="background-color:burlywood;"> This is what the largest heading looks like. It is referred to as h1.</h1>
         <h2> This is h2. Smaller than h1, bigger than h3. Goes all the way to h6!</h2>
-        <p>The content in here is in a paragraph container. Notice the difference?
+        <p style="color:burlywood;" title="This is a paragraph">The content in here is in a paragraph container. Notice the difference?
             Everything I have learned comes from w3schools c: I'll link it down below.
+            Underneath that, I'll add an image of their logo for reference.
+            <br>
             <a href="https://www.w3schools.com">w3schools_website</a>
+            <br>
+            <img src="W3Schools_logo.svg.png" alt="W3Schools_logo" width="104" height="142">
+            <br>
+            Quick note, the breaks in this paragraph come from the br tag. If you want breaks outside of a paragraph, use the hr tag.
+            <br>
+            The hr tag is displayed as a horizontal line, which explains where the line below this text came from.
+            <br>
+            <pre>
+                Using br every time you want a new line can be annoying. 
+                The solution is to use the pre element.
+                This prints the text in the format it appears in the source code.
+                These last few sentences were blocked in a pre tag!
+                The style of the pre tag can be modified using a style tag c:
+            </pre>
+            <br>
+            <pre style="font-family:verdana; font-size:20px; text-align:center;">
+                This is also in a pre element.
+                Do you notice the font type and size difference?
+                Also look at the location of the text relative to the page.
+            </pre>
+            <br>
+            <pre>
+                <b>This text is bolded.</b>
+                <strong>This text is surrounded by the strong tag to define text with importance.</strong>
+                While both text lines appear to be bolded - and are -, always try to use the tag for their purpose.
+                Don't use the strong tag for text you want to just be bolded, and vice versa.
+                <i>This text is in italics. The i tag is used typically for text that is normally italicized. </i>
+                <em>
+                This text is emphasized. Similar to the strong element in relation to the b tag, The em tag
+                appears in italics, but is not to be used in place of the i tag. Use it for emphasizing text!
+                Furthermore, a screenreader will read the information in an em tag with verbal stress.
+                </em>
+                <small>The small tag defines <mark>small</mark> text.</small>
+                Did you notice the word small in the small text - lol -. It was marked with the mark tag for emphasis.
+                This emphasis is demonstrated as <del>yellow highlight</del>.
+                <ins>Why is there a line through yellow highlight?</ins> 
+                It's there to demonstrate how the del tag works. I was going to erase that line as it seemed redundant and obvious,
+                but it seemed a perfect chance to demonstrate how the del tag works hehe.
+                I also took the opportunity to show how the ins tag works. It underlines text to show that text was inserted.
+                This text shows how the sub tag works <sub>It's a subscript.</sub>
+                Similarly, the sup tag shows a <sup>superscript.</sup>
+            </pre>
         </p>
+        <hr>
+        <h1 style="font-size:10px;">This is also h1, but the font size has been overridden using the font-size property.</h1>
+
 
 
     </body>
