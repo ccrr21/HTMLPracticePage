@@ -9,11 +9,18 @@
         <h2> This is h2. Smaller than h1, bigger than h3. Goes all the way to h6!</h2>
         <p style="color:burlywood;" title="This is a paragraph">The content in here is in a paragraph container. Notice the difference?
             Everything I have learned comes from w3schools c: I'll link it down below.
-            Underneath that, I'll add an image of their logo for reference.
+            Underneath that, I'll add an image of their logo for reference, which if you click on, will also be a link to the page.
             <br>
-            <a href="https://www.w3schools.com">w3schools_website</a>
+            <a href="https://www.w3schools.com" target="_blank">w3schools_website</a>
+            <!--
+                _self = Opens in same window/tab. Default.
+                _parent = Opens document in parent frame.
+                _top = Opens document in full body of the window.
+            -->
             <br>
-            <img src="W3Schools_logo.svg.png" alt="W3Schools_logo" width="104" height="142">
+            <a href="https://www.w3schools.com" target="_blank">
+                <img src="W3Schools_logo.svg.png" alt="W3Schools_logo" width="104" height="142">
+            </a>
             <br>
             Quick note, the breaks in this paragraph come from the br tag. If you want breaks outside of a paragraph, use the hr tag.
             <br>
@@ -33,7 +40,8 @@
                 Also look at the location of the text relative to the page.
             </pre>
             <br>
-            <pre>
+            <!-- This is an example of a comment. -->
+            <pre style="border:2px solid burlywood">
                 <b>This text is bolded.</b>
                 <strong>This text is surrounded by the strong tag to define text with importance.</strong>
                 While both text lines appear to be bolded - and are -, always try to use the tag for their purpose.
@@ -53,10 +61,32 @@
                 I also took the opportunity to show how the ins tag works. It underlines text to show that text was inserted.
                 This text shows how the sub tag works <sub>It's a subscript.</sub>
                 Similarly, the sup tag shows a <sup>superscript.</sup>
+                Here is going to be an example of a blockquote. 
+                <blockquote cite="https://www.w3schools.com/html/html_quotation_elements.asp">
+                    The HTML blockquote element defines a section that is quoted from another source.
+                </blockquote>
+                For short quotations, you use q - <q> Browsers normally insert quotation marks around the quotation.
+                </q>
+
+                The abbr tag is used to define abbreviations -> An example is <abbr title="abbreviation">abbr</abbr>.
+                An example of a citation: 
+                <cite>Starry Night</cite> by Vincent van Goh. Painted in 1889.
+                <bdo dir="rtl"> This text demonstrates bidirectional override, aka bdo</bdo>
+                Colors can be defined in many ways: rgb, hex, rgba, hsla, hsl.
+                RGB = Red, Green, Blue. Values can range from 0 to 255.
+                RGBA = Red, Green, Blue, Alpha (alpha = opacity).
+                HEX = RedRed, GreenGreen, BlueBlue. Composed of Hex values.
+                HSL = Hue, Saturation, Lightness.
+                HSLA = Hue, Saturation, Lightness, Alpha.
+
             </pre>
         </p>
         <hr>
         <h1 style="font-size:10px;">This is also h1, but the font size has been overridden using the font-size property.</h1>
+        <address>
+            My address would go here in the address tag<br>
+            Use line breaks - br - to format everything.
+        </address>
 
 
 
