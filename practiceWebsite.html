@@ -2,9 +2,23 @@
 <html lang="en-US">
     <head>
         <title> Catherine's Practice Website! </title>
+        <!-- Img tag width attribute recommended so that a style sheet won't change the size of images.-->
+        <style>
+            a:visited {
+                color:chocolate;
+            }
+           
+            img {
+                
+                width:100%;
+            }
+        </style>
     </head>
 
     <body style="background-color:floralwhite;">
+        <!-- You can also add a jump to a bookmark on another page. To see how to do this,
+             check out the bookmark section on links in w3schools.-->
+        <a href="#EndofPage">Jump to End of Page</a>
         <h1 style="background-color:burlywood;"> This is what the largest heading looks like. It is referred to as h1.</h1>
         <h2> This is h2. Smaller than h1, bigger than h3. Goes all the way to h6!</h2>
         <p style="color:burlywood;" title="This is a paragraph">The content in here is in a paragraph container. Notice the difference?
@@ -17,9 +31,9 @@
                 _parent = Opens document in parent frame.
                 _top = Opens document in full body of the window.
             -->
-            <br>
             <a href="https://www.w3schools.com" target="_blank">
-                <img src="W3Schools_logo.svg.png" alt="W3Schools_logo" width="104" height="142">
+                <!-- Always provide width and height for an image, or the image may flicker when the page loads.-->
+                <img src="W3Schools_logo.svg.png" alt="W3Schools_logo" style="float:left;width:104px;height:104px">
             </a>
             <br>
             Quick note, the breaks in this paragraph come from the br tag. If you want breaks outside of a paragraph, use the hr tag.
@@ -83,6 +97,9 @@
         </p>
         <hr>
         <h1 style="font-size:10px;">This is also h1, but the font size has been overridden using the font-size property.</h1>
+        <h2 id="EndofPage"> End of Page</h2>
+
+        </h2>
         <address>
             My address would go here in the address tag<br>
             Use line breaks - br - to format everything.
